@@ -23,7 +23,7 @@ DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://animusic:animusic@c
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 # ID of users that can use the bot commands
-AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "652415641 1499002873 1229514997 1760029936").split())
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1499002873").split())
 
 # Should bot search for document files in channels
 DOC_SEARCH = os.environ.get("DOC_SEARCH", "yes").lower()

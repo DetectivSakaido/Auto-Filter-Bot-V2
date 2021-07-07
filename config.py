@@ -5,16 +5,16 @@ from logging.handlers import RotatingFileHandler
 
 
 # Get a bot token from botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1829039993:AAEe9z2IEdtel8NjbNnR3WY3gOXZbQJEo5s")
 
 # Get from my.telegram.org (or @UseTGXBot)
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "6639731"))
 
 # Get from my.telegram.org (or @UseTGXBot)
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "09db81f3b9b8fcc63ce895630a32d1716639731")
 
 # Generate a user session string 
-TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
+TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQChVBZP-Z_x5KJFpNlgY5sxjwU04JHXKVigTVpng5R2RjyhuD8bQkG4pYaM4Fdbk185ejJs-VvZz1lKzCe4P3EVYRrzC9vOE1Xm7wHaVKktUaZQ0kdtMW58H9SVJLOcbLauJH5uyUy_Dpb1ZgWUJciOdkdB7P9kp3Su1l3sR5gqk3_feZEDMRUhBHnA9fXXUS6oYilI_I5YTo4ZjwtMbKmjdcrGhlN2iNyLzdt0JRXrZFm0sgoI24a9Cd3CowBDTQ5EeTEKTsp4s1kokZoCj_Cqzd9teX6MxiDLzn8Ltt8WdfS8KkwQdPTjSlPSmN6KTXF8_WLadBDjfUB11Onp6WPdbQTveQE")
 
 # Database URL from https://cloud.mongodb.com/
 DATABASE_URI = os.environ.get("DATABASE_URI", "")
@@ -23,7 +23,7 @@ DATABASE_URI = os.environ.get("DATABASE_URI", "")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "")
 
 # ID of users that can use the bot commands
-AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "652415641 1499002873 1229514997 1760029936").split())
 
 # Should bot search for document files in channels
 DOC_SEARCH = os.environ.get("DOC_SEARCH", "yes").lower()
@@ -32,7 +32,7 @@ DOC_SEARCH = os.environ.get("DOC_SEARCH", "yes").lower()
 VID_SEARCH = os.environ.get("VID_SEARCH", "no").lower()
 
 # Should bot search for music files in channels
-MUSIC_SEARCH = os.environ.get("MUSIC_SEARCH", "no").lower()
+MUSIC_SEARCH = os.environ.get("MUSIC_SEARCH", "yes").lower()
 
 
 

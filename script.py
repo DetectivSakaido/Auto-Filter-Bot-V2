@@ -12,7 +12,6 @@ For more click <i>help</i></b>"""
 
     HELP_MSG = """<b>How to use the bot??</b>
 
-<i>
 just send the file name (no typo)
 
 

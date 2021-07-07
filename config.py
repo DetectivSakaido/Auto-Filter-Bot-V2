@@ -17,10 +17,10 @@ API_HASH = os.environ.get("API_HASH", "09db81f3b9b8fcc63ce895630a32d1716639731")
 TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQChVBZP-Z_x5KJFpNlgY5sxjwU04JHXKVigTVpng5R2RjyhuD8bQkG4pYaM4Fdbk185ejJs-VvZz1lKzCe4P3EVYRrzC9vOE1Xm7wHaVKktUaZQ0kdtMW58H9SVJLOcbLauJH5uyUy_Dpb1ZgWUJciOdkdB7P9kp3Su1l3sR5gqk3_feZEDMRUhBHnA9fXXUS6oYilI_I5YTo4ZjwtMbKmjdcrGhlN2iNyLzdt0JRXrZFm0sgoI24a9Cd3CowBDTQ5EeTEKTsp4s1kokZoCj_Cqzd9teX6MxiDLzn8Ltt8WdfS8KkwQdPTjSlPSmN6KTXF8_WLadBDjfUB11Onp6WPdbQTveQE")
 
 # Database URL from https://cloud.mongodb.com/
-DATABASE_URI = os.environ.get("DATABASE_URI", "")
+DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://animusic:animusic@cluster0.gwv7q.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Your database name from mongoDB
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 # ID of users that can use the bot commands
 AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "652415641 1499002873 1229514997 1760029936").split())
